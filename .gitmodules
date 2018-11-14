@@ -62,3 +62,7 @@
 	path = omero-webtest
 	url = git://github.com/openmicroscopy/omero-webtest
 	branch = master
+[submodule "imagej-omero"]
+	path = imagej-omero
+	url = git://github.com/imagej/imagej-omero
+	branch = master

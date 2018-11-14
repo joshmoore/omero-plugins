@@ -19,6 +19,7 @@ env:
 - REPO=omero-webtest STAGE=app
 - REPO=rOMERO-gateway STAGE=lib
 - REPO=scripts STAGE=scripts
+- REPO=imagej-omero STAGE=lib
 
 script:
 - cd $REPO && ln -s ../omero-test-infra .omero && .omero/docker $STAGE
